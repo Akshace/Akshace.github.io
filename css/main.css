@@ -1108,7 +1108,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 100px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1131,7 +1131,7 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	/* background: url("../images/logo.png") no-repeat center; */
 	background-size: 92px 15px;
 }
 
@@ -1508,6 +1508,7 @@ header .logo a {
 }
 #about .section-intro {
 	margin-bottom: 3rem;
+	max-width: 850px;
 }
 
 .intro-info {
